@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .block {
+    animation: anima 2s infinite alternate;
+  }
+}
+
+@keyframes anima {
+  0% {
+    scale: 1;
+  }
+
+  100% {
+    scale: 10;
+  }
+}
